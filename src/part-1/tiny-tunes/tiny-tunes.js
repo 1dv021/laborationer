@@ -13,12 +13,12 @@
  */
 exports.add = function() {
 
-    // Pre-defined variables. Do not change this definitions
+    // Pre-defined variables. Do not change these definitions
     var a = 12;
     var b = "12";
 
     // Your code here - change the code under to make the test go green
-    // The problem is to change så that variables a and b both become of data type "Number"
+    // The problem is to change so that variables a and b both become of data type "Number"
     return a + b;
 };
 
@@ -28,7 +28,7 @@ exports.add = function() {
  */
 exports.concater = function() {
 
-    // Pre-defined variables. Do not change this definitions
+    // Pre-defined variables. Do not change these definitions
     var message = "I'm going to learn programming in";
     var time = 10;
     var weeks = "weeks";
@@ -45,7 +45,7 @@ exports.concater = function() {
  */
 exports.round = function() {
 
-    // Pre-defined variables. Do not change this definitions
+    // Pre-defined variables. Do not change these definitions
     var a = 12.24;
     var b = 12.27;
 
