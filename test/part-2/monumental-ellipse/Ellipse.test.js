@@ -35,37 +35,42 @@ describe("Ellipse - Using public properties (file: Ellipse.js)", function() {
 
     describe("Properties", function() {
         describe("a", function() {
-            it("should set the property a to 11.7", function() {
+            it("should set the property a to 11.7", function () {
                 var ellipse = new Ellipse(11.7, 42.4);
                 expect(ellipse).to.have.property("a", 11.7);
             });
 
-            it("should set the property a to 0", function() {
+            it("should set the property a to 0", function () {
                 var ellipse = new Ellipse(1, 1);
                 ellipse.a = 0;
                 expect(ellipse).to.have.property("a", 0);
             });
 
-            it("should throw exception when a is negative", function() {
+            it("should throw exception when a is negative", function () {
                 var ellipse = new Ellipse(0, 0);
-                expect(function() {
+                expect(function () {
                     ellipse.a = -1;
                 }).to.throw(Error);
             });
 
-            it("should throw exception when a is a string (\"not a number\")", function() {
+            it("should throw exception when a is a string (\"not a number\")", function () {
                 var ellipse = new Ellipse(0, 0);
-                expect(function() {
+                expect(function () {
                     ellipse.a = "not a number";
                 }).to.throw(Error);
             });
 
-            it("should set the property a to 123 when a is the string \"123\"", function() {
+            it("should set the property a to 123 when a is the string \"123\"", function () {
                 var ellipse = new Ellipse(0, 0);
                 ellipse.a = "123";
                 expect(ellipse).to.have.property("a", 123);
             });
 
+            it("should throw exception when Ellipse is created with a as a string (\"not a number\")", function () {
+                expect(function () {
+                    new Ellipse("not a number", 0);
+                }).to.throw(Error);
+            });
         });
 
         describe("b", function() {
@@ -99,6 +104,13 @@ describe("Ellipse - Using public properties (file: Ellipse.js)", function() {
                 ellipse.b = "123";
                 expect(ellipse).to.have.property("b", 123);
             });
+
+            it("should throw exception when Ellipse is created with b as a string (\"not a number\")", function() {
+                expect(function() {
+                    new Ellipse(0, "not a number");
+                }).to.throw(Error);
+            });
+
         });
     });
 
