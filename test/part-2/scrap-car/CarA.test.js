@@ -116,6 +116,12 @@ describe("CarA - Using public properties (file: CarA.js)", function() {
             it ("should have a stop method", function() {
                 expect(CarA.prototype).to.have.property("stop").that.is.a("Function");
             });
+            
+            it("should have decreased the speed of the car to 0 km/h", function() {
+                var car = new CarA();
+                car.stop();
+                expect(car.speed).to.equal(0);
+            });
 
             it("should have returned \"Ipsum stannar.\"", function() {
                 var car = new CarA("Ipsum");
