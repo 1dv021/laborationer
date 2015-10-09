@@ -42,7 +42,7 @@ Konstruktorn ska ha två parametrar, `length` och `height`. Ska ärva från Shap
 
 ###Metoder
 
-Metoderna nedan ska vara genmsamma för samtliga objekt som instansieras av typen.
+Metoderna nedan ska vara gemensamma för samtliga objekt som instansieras av typen.
 
 - `area`, ska returnera rektangelns area.
 - `circumference`, ska returnera rektangelns omkrets.
