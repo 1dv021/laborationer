@@ -16,7 +16,7 @@ Du ska komplettera filen Ellipse.js med kod som gör det möjligt att instansier
 
 ###Metoder
 
-Metoderna nedan ska vara genmsamma för samtliga objekt som instansieras av typen.
+Metoderna nedan ska vara gemensamma för samtliga objekt som instansieras av typen.
 
 - `area`, ska returnera ellipsens area.
 - `circumference`, ska returnera ellipsens omkrets.
