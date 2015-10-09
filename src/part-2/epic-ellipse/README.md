@@ -1,6 +1,6 @@
 #Episk ellips
 
-Du ska skriva en konstruktorfunktion som skapar ett objekt av typen Ellipse där arean och omkretsen ska kunna beräknas. I samband med att objektet skapas ska det vara möjlight att ange halva storaxelns längd, som betecknas a, och halva lillaxelns längd, som betecknas b.
+Du ska skriva en konstruktorfunktion som skapar ett objekt av typen Ellipse där arean och omkretsen ska kunna beräknas. I samband med att objektet skapas ska det vara möjligt att ange halva storaxelns längd, som betecknas a, och halva lillaxelns längd, som betecknas b.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/2/24/Elipse.svg)
 
