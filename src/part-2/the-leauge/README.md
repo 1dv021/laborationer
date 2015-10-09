@@ -3,7 +3,7 @@ Denna uppgift går ut på att skriva en applikation som simulerar någon form av
 En liga innehåller ett antal lag och varje lag möter vandra två gånger, en gång som hemmalag och en gång som bortalag.
 En match kan ha tre utfall; hemmalaget vinner och får tre poäng, det blir oavgjort och båda lagen får en poäng eller
 bortalaget vinner och får tre poäng.
-När alla matcher har spelats har lagen fått olika (eller lika) poäng och en tabell kan generas.
+När alla matcher har spelats har lagen fått olika (eller lika) poäng och en tabell kan genereras.
 
 För skapande av objekt ska designmönstret Constructor/Prototype användas
 
@@ -48,8 +48,8 @@ console.log(team.points); // 0
 ```
 
 ####Metoden toTableRow(padding)
-Används för att skapa en sträng som visar lagets namn och poäng
-Padding är antal teckenpositioner från consolens vänsterkant till där poängen skrivs ut
+Används för att skapa en sträng som visar lagets namn och poäng.
+Padding är antal teckenpositioner från consolens vänsterkant till där poängen skrivs ut.
 Detta för att kunna skriva ut flera lag efter varandra i "snygg" tabell.
 Defaultvärde på padding ska vara 25.
 
