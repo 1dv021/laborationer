@@ -1,6 +1,6 @@
 #Episk ellips
 
-Du ska skriva en konstruktorfunktion som skapar ett objekt av typen Ellipse där arean och omkretsen ska kunna beräknas. I samband med att objektet skapas ska det vara möjlight att ange halva storaxelns längd, som betecknas a, och halva lillaxelns längd, som betecknas b.
+Du ska skriva en konstruktorfunktion som skapar ett objekt av typen Ellipse där arean och omkretsen ska kunna beräknas. I samband med att objektet skapas ska det vara möjligt att ange halva storaxelns längd, som betecknas a, och halva lillaxelns längd, som betecknas b.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/2/24/Elipse.svg)
 
@@ -16,7 +16,7 @@ Du ska komplettera filen Ellipse.js med kod som gör det möjligt att instansier
 
 ###Metoder
 
-Metoderna nedan ska vara genmsamma för samtliga objekt som instansieras av typen.
+Metoderna nedan ska vara gemensamma för samtliga objekt som instansieras av typen.
 
 - `area`, ska returnera ellipsens area.
 - `circumference`, ska returnera ellipsens omkrets.
