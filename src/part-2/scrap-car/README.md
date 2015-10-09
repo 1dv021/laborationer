@@ -1,6 +1,6 @@
 #Skrotbilen
 
-Din uppgift är att skriva kod som efterliknar en enkel bil. Bilen ska kunna starta, stanna, svänga till höger, svänga till vänster och accelerera. Det ska vara möjligt att ge bilen ett smeknamn och dessutom nåste bilen själv hålla ordning på dess hastighet.
+Din uppgift är att skriva kod som efterliknar en enkel bil. Bilen ska kunna starta, stanna, svänga till höger, svänga till vänster och accelerera. Det ska vara möjligt att ge bilen ett smeknamn och dessutom måste bilen själv hålla ordning på dess hastighet.
 
 ##Typen CarA
 Du ska komplettera filen CarA.js med kod som gör det möjligt att instansiera objekt av typen `CarA`, för att det ska vara möjligt att "köra" objekten utan problem på testbanan och tävlingsbanan App.
